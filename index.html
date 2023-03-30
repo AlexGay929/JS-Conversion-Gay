@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>JS-Conversion</title>
+    <style>
+        body {
+            background-image: url(assets/images/libra.jpg);
+            background-size: contain;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="converter">
+            <h1 class="title">Length Converter</h1>
+            <p>
+                <label>Meters</label>
+                <input id="inputMeters" type="number" placeholder="Meters" oninput="LengthConverter(this.value)" onchange="LengthConverter(this.value)">
+            </p>
+                <p>Feet: <span id="outputFeet"></span></p>
+
+                <p>Inches: <span id="outputInches"></span></p>
+
+                <p>cm: <span id="outputcm"></span></p>
+
+
+        </div>
+    </div>  
+    
+
+    <!-- <input type="button" onclick="sum()" value="Add">
+    <input type="button" onclick="diff()" value="Subtract">
+    <input type="button" onclick="quotient()" value="Divide"> -->
+
+    <script src="assets/script/script.js"></script>
+</body>
+</html>
